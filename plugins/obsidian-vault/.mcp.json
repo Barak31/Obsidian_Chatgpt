@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "obsidian_vault": {
+      "command": "python3",
+      "args": ["./scripts/obsidian_mcp.py"],
+      "cwd": ".",
+      "env_vars": ["OBSIDIAN_VAULT_PATH", "HOME", "PATH"],
+      "startup_timeout_sec": 10,
+      "tool_timeout_sec": 120
+    }
+  }
+}
