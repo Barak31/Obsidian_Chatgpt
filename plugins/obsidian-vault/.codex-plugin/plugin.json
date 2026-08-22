@@ -1,0 +1,38 @@
+{
+  "name": "obsidian-vault",
+  "version": "0.1.0+codex.20260822131953",
+  "description": "Read, search, create, edit, and organize Markdown notes in a local Obsidian vault.",
+  "author": {
+    "name": "Barak31",
+    "url": "https://github.com/Barak31"
+  },
+  "homepage": "https://github.com/Barak31/Obsidian_Chatgpt",
+  "repository": "https://github.com/Barak31/Obsidian_Chatgpt",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "markdown",
+    "notes",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Obsidian Vault",
+    "shortDescription": "Work with your local Obsidian notes.",
+    "longDescription": "Safely read, search, create, append, replace, move, and delete Markdown notes inside a local Obsidian vault.",
+    "developerName": "Barak31",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Search"
+    ],
+    "brandColor": "#7C3AED",
+    "defaultPrompt": [
+      "Busca informaci\u00f3n en mi vault de Obsidian.",
+      "Crea una nota nueva en mi vault.",
+      "Actualiza una nota existente de Obsidian."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
