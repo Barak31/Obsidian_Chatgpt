@@ -1,0 +1,20 @@
+{
+  "name": "barak31",
+  "interface": {
+    "displayName": "Barak31 Plugins"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-vault",
+      "source": {
+        "source": "local",
+        "path": "./plugins/obsidian-vault"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
